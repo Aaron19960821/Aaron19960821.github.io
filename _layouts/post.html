@@ -4,6 +4,12 @@ layout: default
 
 {% include base_path %}
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+                  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+                          });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% if page.image %}
   <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
