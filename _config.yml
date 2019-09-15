@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
+title:       Yuchen's graden
 email:       ''
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
@@ -17,6 +17,7 @@ instagram:   ''
 facebook:    ''
 
 markdown:  kramdown
+mathjax: true
 permalink: pretty
 paginate:  10
 
