@@ -7,14 +7,14 @@
 
 # Site settings
 title:       Yuchen's graden
-email:       ''
+email:       'wyc8094@gmail.com'
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
 twitter:     ''
-github:      ''
+github:      'https://github.com/Aaron19960821'
 instagram:   ''
-facebook:    ''
+facebook:    'https://www.facebook.com/profile.php?id=100010624572709'
 
 markdown:  kramdown
 mathjax: true
