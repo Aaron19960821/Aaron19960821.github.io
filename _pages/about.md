@@ -42,4 +42,3 @@ My name is Yuchen Wong, currently a master student at **National Taiwan Universi
 ### Microsoft Cortana
 - Work as a software engineer intern in Cortana team.
 - Investigate on different feature used in language understanding.  
-
