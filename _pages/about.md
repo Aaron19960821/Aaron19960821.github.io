@@ -6,9 +6,14 @@ image: '../images/pages/haibara.jpg'
 
 # Yuchen Wong
 
-My name is Yuchen Wong, currently a software engineer in Microsoft Edge team. In my spare time, I love [Arsenal](https://www.arsenal.com/), [Ai Haibara](https://www.detectiveconanworld.com/wiki/Ai_Haibara) and Pokemon.  
+My name is Yuchen Wong, currently a master student at **National Taiwan University** and working on computer graphics and computational photography. Before going to Taiwan, I was a software engineer at **Microsoft**. In my spare time, I love [Arsenal](https://www.arsenal.com/), [Ai Haibara](https://www.detectiveconanworld.com/wiki/Ai_Haibara) and Pokemon.  
 
 ## Projects
+
+### BubbleScript(2019.11-2020.1)
+- Investigate different papers in bubble modeling in SCA and Siggraph proceddings.
+- Implement bubble simulation algorithms based on **Shallow Water Framework**.
+- Deploy it on VR Platform(To be continue).
 
 ### Extension Framework in Edge Android(2019.1-2019.6)
 - Let chromium extensions run on Edge Android.
