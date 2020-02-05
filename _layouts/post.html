@@ -15,7 +15,6 @@ MathJax.Hub.Config({
 {% endif %}
 
 <div class='o-wrapper'>
-
   <div class='o-grid'>
     <div class='o-grid__col'>
       <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
@@ -36,8 +35,11 @@ MathJax.Hub.Config({
           {% endfor %}
         </div>
 
-      </article>
+        <hr>
 
+        {% include disqus.html %}
+
+      </article>
     </div>
   </div>
 </div>
