@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: Voice Control Gun
+tags: [VR, Course Work]
 ---
 
 ## Voice Control Gun
