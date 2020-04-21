@@ -55,7 +55,7 @@ content:
     tags:
       enable: true
     comments:
-      enable: true
+      enable: false
   tagpost:
     animation: true
     date:
@@ -65,7 +65,7 @@ content:
     tags:
       enable: true
     comments:
-      enable: true
+      enable: false
   post:
     reading_time:
       enable: true
@@ -85,7 +85,7 @@ content:
     day_quote:
       enable: true
     comments:
-      enable: true
+      enable: false
   contact:
     animation: true
     note:
