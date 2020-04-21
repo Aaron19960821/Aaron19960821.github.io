@@ -37,21 +37,23 @@ website:
 # Sidebar
   sidebar:
     avatar:
-      img: "typing_face.png"
+      img: "haibara.jpeg"
       flip:
-        img: "typing_back.png"
+        img: "haibara.jpeg"
     title:
-      text: "Hey, <br> I'm Typing."
+      text: "Hey, <br> I'm Yuchen."
       size: "2.3rem"
     menu:
       blog:
         text: "Blog"
-        search:
-          text: "Search"
-        tags:
-          text: "Tags"
-        feed:
-          text: "Feed"
+      search:
+        text: "Search"
+      tags:
+        text: "Tags"
+      feed:
+        text: "Feed"
+      about:
+        text: "About"
 # Content
   content:
     search:
@@ -93,10 +95,10 @@ website:
         plan: "free" # Using: free | paid
       language: "en-US"
       placeholder:
-        name: "Your full name"
-        subject: "Subject matter"
-        email: "Your email"
-        message: "What would you like to say?"
+        name: "Yuchen Wong"
+        subject: "Learner"
+        email: "wyc8094@gmail.com"
+        message: "Avat Victoria Curam."
       send:
         successfully:
           header:
@@ -135,34 +137,14 @@ website:
 
 # User data
 userdata:
-  email: # E.g: youremail@domain.com
+  email: wyc8094@gmail.com
   twitter: # E.g: "@my_twitter"
   disqus:
     username: # E.g: myuser
   socials:
     title: Follow Me!
     links:
-      - title: Twitter
-        id: twitter
-        icon: fa-twitter
-        url: https://twitter.com
-
-      - title: Youtube
-        id: youtube
-        icon: fa-youtube
-        url: https://youtube.com
-
-      - title: LinkedIn
-        id: linkedin
-        icon: fa-linkedin
-        url: https://linkedin.com
-
       - title: Facebook
         id: facebook
         icon: fa-facebook
-        url: https://facebook.com
-
-      - title: Instagram
-        id: instagram
-        icon: fa-instagram
-        url: https://instagram.com
+        url: https://www.facebook.com/profile.php?id=100010624572709

@@ -1,6 +1,6 @@
 ---
 layout: hello
-title: Typing
+title: About
 menu:
   enable: false
   local: [null]
@@ -8,14 +8,41 @@ published: true
 script: [hello.js]
 ---
 
-Hey, I'am [Typing](https://github.com/williamcanin/typing-jekyll-template){: target="_blank"}. I'm a theme [Jekyll](https://jekyllrb.com){: target="_blank"} Inspired by the habit of typing. Using an appearance that resembles the typewriter. A simple, fast and efficient way of reading, just like the old days.
+# Yuchen Wong
 
-'Typing' is intended for users with more technical content than for users who wish to have a stylish page. Keep it simple!
+My name is Yuchen Wong, currently a master student at **National Taiwan University** and working on computer graphics and computational photography. Before going to Taiwan, I was a software engineer at **Microsoft**. In my spare time, I love [Arsenal](https://www.arsenal.com/), [Ai Haibara](https://www.detectiveconanworld.com/wiki/Ai_Haibara) and Pokemon.  
 
-**Let's see some details about this page:**
+## Projects
 
-This page Hello exists to put everything about you, as if it were a simplified 'About'. The file for editing this page is in the directory root: `index.md`.
+### BubbleScript(2019.11-2020.1)
+- Investigate different papers in bubble modeling in SCA and Siggraph proceddings.
+- Implement bubble simulation algorithms based on **Shallow Water Framework**.
+- Deploy it on VR Platform(To be continue).
 
-Hey Nerd! How is it? You're analyzing me, but are not you using me? Use me now! I'm not into embellishment. 
+### Extension Framework in Edge Android(2019.1-2019.6)
+- Let chromium extensions run on Edge Android.
+- Fix compatibility gap between Android and PC platform. 
+- Design and implement extension management system in Android Layer.
+- Make Edge the third mobile browser in the world that supports Chromium extension.(After Yarndex and Kiwi).
+- Refer the following [link](https://www.onmsft.com/news/edge-beta-users-on-android-can-start-saving-money-with-honey-gold-extension-today) for more information.
 
-[Download](https://github.com/williamcanin/typing-jekyll-template){: target="_blank"}
+### Butterfly Detection(2018.3-2018.6)
+- [Project link](https://github.com/Aaron19960821/ButterflyDetection)
+- Investigate on different object detection algorithms.
+- Using different strategies to argument and refine training dataset.  
+- Design and implement the pipeline of solution.
+
+### Carina.LU(2017.7-2017.10)
+- Investigate on different feature extractor algorithms in language understanding.
+- Design and implement data storage system and make it 6 times faster than before.
+
+## Experience
+
+### Microsoft Edge
+- Work as a software engineer in Microsoft Edge team.
+- Let chromium extension run on Edge Android.
+- Work with **intune** team on managed download solution.  
+
+### Microsoft Cortana
+- Work as a software engineer intern in Cortana team.
+- Investigate on different feature used in language understanding.  
