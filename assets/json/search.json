@@ -3,84 +3,84 @@
     {
       "title"    : "Radiometry",
       "tags"     : "rendering, physics, graphics",
-      "url"     : "//blog/radiometry/",
+      "url"     : "/blog/radiometry/",
       "date"     : "23/4/2020"
     } ,
   
     {
       "title"    : "Keywords about COVID-19 For me",
       "tags"     : "COVID-19",
-      "url"     : "//blog/key_words_coronavirus/",
+      "url"     : "/blog/key_words_coronavirus/",
       "date"     : "19/2/2020"
     } ,
   
     {
       "title"    : "Voice Control Gun",
       "tags"     : "VR, Course Work",
-      "url"     : "//blog/voice_control_gun/",
+      "url"     : "/blog/voice_control_gun/",
       "date"     : "5/2/2020"
     } ,
   
     {
       "title"    : "Welcome to Jekyll!",
       "tags"     : "example, welcome, jekyll, typing",
-      "url"     : "//blog/welcome-to-jekyll/",
+      "url"     : "/blog/welcome-to-jekyll/",
       "date"     : "3/10/2019"
     } ,
   
     {
       "title"    : "c# week 2",
       "tags"     : ".NET",
-      "url"     : "//blog/c-2/",
+      "url"     : "/blog/c-2/",
       "date"     : "11/3/2017"
     } ,
   
     {
       "title"    : "C# week1",
       "tags"     : ".NET",
-      "url"     : "//blog/c-1/",
+      "url"     : "/blog/c-1/",
       "date"     : "4/3/2017"
     } ,
   
     {
       "title"    : "Polya Theory",
       "tags"     : "Algorithm, math",
-      "url"     : "//blog/Polya/",
+      "url"     : "/blog/Polya/",
       "date"     : "1/3/2017"
     } ,
   
     {
       "title"    : "插头DP",
       "tags"     : "algorithm, ACM/ICPC",
-      "url"     : "//blog/Chatou-dp/",
+      "url"     : "/blog/Chatou-dp/",
       "date"     : "28/2/2017"
     } ,
   
     {
       "title"    : "bitmask dp",
       "tags"     : "algorithm, ACM/ICPC",
-      "url"     : "//blog/Bitmask-dp/",
+      "url"     : "/blog/Bitmask-dp/",
       "date"     : "16/2/2017"
     } ,
   
     {
       "title"    : "Suffix Array",
       "tags"     : "Algorithm, ACM/ICPC",
-      "url"     : "//blog/Suffix-array/",
+      "url"     : "/blog/Suffix-array/",
       "date"     : "13/1/2017"
     } ,
   
     {
       "title"    : "一个有意思的DP",
       "tags"     : "DP, ACM/ICPC",
-      "url"     : "//blog/An-interesting-dp/",
+      "url"     : "/blog/An-interesting-dp/",
       "date"     : "19/12/2016"
     } ,
   
     {
       "title"    : "一个有意思的博弈",
       "tags"     : "game theory, acm/icpc",
-      "url"     : "//blog/A-game-theory-problem/",
+      "url"     : "/blog/A-game-theory-problem/",
       "date"     : "18/11/2016"
     } 
   
