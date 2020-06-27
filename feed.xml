@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io//" rel="alternate" type="text/html" /><updated>2020-06-27T17:48:12+08:00</updated><id>https://aaron19960821.github.io//feed.xml</id><entry><title type="html">Radiometry</title><link href="https://aaron19960821.github.io//blog/radiometry/" rel="alternate" type="text/html" title="Radiometry" /><published>2020-04-23T23:55:04+08:00</published><updated>2020-04-23T23:55:04+08:00</updated><id>https://aaron19960821.github.io//blog/radiometry</id><content type="html" xml:base="https://aaron19960821.github.io//blog/radiometry/">&lt;!-- Write from here your post !!! --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io/" rel="alternate" type="text/html" /><updated>2020-06-27T18:06:52+08:00</updated><id>https://aaron19960821.github.io/feed.xml</id><entry><title type="html">Radiometry</title><link href="https://aaron19960821.github.io/blog/radiometry/" rel="alternate" type="text/html" title="Radiometry" /><published>2020-04-23T23:55:04+08:00</published><updated>2020-04-23T23:55:04+08:00</updated><id>https://aaron19960821.github.io/blog/radiometry</id><content type="html" xml:base="https://aaron19960821.github.io/blog/radiometry/">&lt;!-- Write from here your post !!! --&gt;
 
 &lt;h1 id=&quot;radiometry&quot;&gt;Radiometry&lt;/h1&gt;
 
@@ -85,7 +85,7 @@ L &amp;amp;= (I-K)^{-1}E
 
 \[L = E + KE + K^2E+ ...\]
 
-&lt;p&gt;We call $E$ as the emitted radiance in $x$, $KE$ as the direct illumination in $x$ and others are indirect illumination.&lt;/p&gt;</content><author><name></name></author><category term="rendering" /><category term="physics" /><category term="graphics" /><summary type="html"></summary></entry><entry><title type="html">Keywords about COVID-19 For me</title><link href="https://aaron19960821.github.io//blog/key_words_coronavirus/" rel="alternate" type="text/html" title="Keywords about COVID-19 For me" /><published>2020-02-19T00:00:00+08:00</published><updated>2020-02-19T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/key_words_coronavirus</id><content type="html" xml:base="https://aaron19960821.github.io//blog/key_words_coronavirus/">&lt;p&gt;写于2020.4.17&lt;/p&gt;
+&lt;p&gt;We call $E$ as the emitted radiance in $x$, $KE$ as the direct illumination in $x$ and others are indirect illumination.&lt;/p&gt;</content><author><name></name></author><category term="rendering" /><category term="physics" /><category term="graphics" /><summary type="html"></summary></entry><entry><title type="html">Keywords about COVID-19 For me</title><link href="https://aaron19960821.github.io/blog/key_words_coronavirus/" rel="alternate" type="text/html" title="Keywords about COVID-19 For me" /><published>2020-02-19T00:00:00+08:00</published><updated>2020-02-19T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/key_words_coronavirus</id><content type="html" xml:base="https://aaron19960821.github.io/blog/key_words_coronavirus/">&lt;p&gt;写于2020.4.17&lt;/p&gt;
 
 &lt;p&gt;再次打开这份文档。这些词语，更多的给我的是一种陌生的感觉。好像做了一场很长的梦。有好像我一直在梦中一直没有醒过来。盯着这些词语看了很久，我才意识到，这些都是发生在我身边的，真实的事情。这些事情从未离我远去。&lt;/p&gt;
 
@@ -97,7 +97,7 @@ L &amp;amp;= (I-K)^{-1}E
 
 &lt;p&gt;而我，却不知道该如何改变这一切。&lt;/p&gt;
 
-&lt;p&gt;或许，要么逃离眼前的这一切，要么和这一切一起灭亡。&lt;/p&gt;
+&lt;p&gt;有的时候，想到这些事情。心里总有一些无力感。是啊，我们都说，文革给我们带来了无尽的灾祸。可下一场文革，离我们又有多远呢？像某位推友说的，十年，差不多是我活在这个世界上一半的时间。而人的生命，只有一次。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;李文亮医生；能，明白&lt;/li&gt;
@@ -115,7 +115,7 @@ L &amp;amp;= (I-K)^{-1}E
   &lt;li&gt;野蛮执法；暴力执法&lt;/li&gt;
   &lt;li&gt;蛋壳；自如&lt;/li&gt;
   &lt;li&gt;当当；强制复工&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">写于2020.4.17</summary></entry><entry><title type="html">Voice Control Gun</title><link href="https://aaron19960821.github.io//blog/voice_control_gun/" rel="alternate" type="text/html" title="Voice Control Gun" /><published>2020-02-05T00:00:00+08:00</published><updated>2020-02-05T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/voice_control_gun</id><content type="html" xml:base="https://aaron19960821.github.io//blog/voice_control_gun/">&lt;h2 id=&quot;voice-control-gun&quot;&gt;Voice Control Gun&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">写于2020.4.17</summary></entry><entry><title type="html">Voice Control Gun</title><link href="https://aaron19960821.github.io/blog/voice_control_gun/" rel="alternate" type="text/html" title="Voice Control Gun" /><published>2020-02-05T00:00:00+08:00</published><updated>2020-02-05T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/voice_control_gun</id><content type="html" xml:base="https://aaron19960821.github.io/blog/voice_control_gun/">&lt;h2 id=&quot;voice-control-gun&quot;&gt;Voice Control Gun&lt;/h2&gt;
 
 &lt;p&gt;This project is developed via Google Daydream platform and Unread Engine 4.&lt;/p&gt;
 
@@ -123,7 +123,7 @@ L &amp;amp;= (I-K)^{-1}E
 
 &lt;p&gt;For reference, please view the following video.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m3vz75XU9Ew&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/m3vz75XU9Ew/0.jpg&quot; alt=&quot;Reference Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="VR" /><category term="Course Work" /><summary type="html">Voice Control Gun</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://aaron19960821.github.io//blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-03T21:22:16+08:00</published><updated>2019-10-03T21:22:16+08:00</updated><id>https://aaron19960821.github.io//blog/welcome-to-jekyll</id><content type="html" xml:base="https://aaron19960821.github.io//blog/welcome-to-jekyll/">&lt;ul id=&quot;markdown-toc&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m3vz75XU9Ew&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/m3vz75XU9Ew/0.jpg&quot; alt=&quot;Reference Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="VR" /><category term="Course Work" /><summary type="html">Voice Control Gun</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://aaron19960821.github.io/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-03T21:22:16+08:00</published><updated>2019-10-03T21:22:16+08:00</updated><id>https://aaron19960821.github.io/blog/welcome-to-jekyll</id><content type="html" xml:base="https://aaron19960821.github.io/blog/welcome-to-jekyll/">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#examples&quot; id=&quot;markdown-toc-examples&quot;&gt;Examples&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#table&quot; id=&quot;markdown-toc-table&quot;&gt;Table&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#list&quot; id=&quot;markdown-toc-list&quot;&gt;List&lt;/a&gt;&lt;/li&gt;
@@ -303,7 +303,7 @@ To listen to the full song, open your Spotify and start these musics.
 
 &lt;p&gt;Goodbye! :wink:&lt;/p&gt;
 
-&lt;hr style=&quot;border-top: 1px solid #9D9D9D ; color: #9D9D9D ;&quot; class=&quot;endpost&quot; /&gt;</content><author><name></name></author><category term="example" /><category term="welcome" /><category term="jekyll" /><category term="typing" /></entry><entry><title type="html">c# week 2</title><link href="https://aaron19960821.github.io//blog/c-2/" rel="alternate" type="text/html" title="c# week 2" /><published>2017-03-11T00:00:00+08:00</published><updated>2017-03-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/c#2</id><content type="html" xml:base="https://aaron19960821.github.io//blog/c-2/">&lt;h2 id=&quot;有关类的知识&quot;&gt;有关类的知识&lt;/h2&gt;
+&lt;hr style=&quot;border-top: 1px solid #9D9D9D ; color: #9D9D9D ;&quot; class=&quot;endpost&quot; /&gt;</content><author><name></name></author><category term="example" /><category term="welcome" /><category term="jekyll" /><category term="typing" /></entry><entry><title type="html">c# week 2</title><link href="https://aaron19960821.github.io/blog/c-2/" rel="alternate" type="text/html" title="c# week 2" /><published>2017-03-11T00:00:00+08:00</published><updated>2017-03-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/c#2</id><content type="html" xml:base="https://aaron19960821.github.io/blog/c-2/">&lt;h2 id=&quot;有关类的知识&quot;&gt;有关类的知识&lt;/h2&gt;
 &lt;h3 id=&quot;类的解剖&quot;&gt;类的解剖&lt;/h3&gt;
 &lt;p&gt;类的成分会有下面的几种情况。&lt;/p&gt;
 &lt;ul&gt;
@@ -443,7 +443,7 @@ class BirthsListTest
 &lt;ul&gt;
   &lt;li&gt;索引器信号当中不包含元素类型&lt;/li&gt;
   &lt;li&gt;索引器信号当中不包含参数的名字。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">有关类的知识 类的解剖 类的成分会有下面的几种情况。 成员变量: 用于表示数据，可以属于对象的一个实例，也可以属于类自身(static). 事件: 当我们在图形化界面上执行一个操作的时候，我们很显然的就会引发一个事件。绑定在这个事件上的方法称为事件驱动程序。 函数成员: 单独拿出函数成员在这里进行重点的剖析。</summary></entry><entry><title type="html">C# week1</title><link href="https://aaron19960821.github.io//blog/c-1/" rel="alternate" type="text/html" title="C# week1" /><published>2017-03-04T00:00:00+08:00</published><updated>2017-03-04T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/c#1</id><content type="html" xml:base="https://aaron19960821.github.io//blog/c-1/">&lt;p&gt;OOP
+&lt;/ul&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">有关类的知识 类的解剖 类的成分会有下面的几种情况。 成员变量: 用于表示数据，可以属于对象的一个实例，也可以属于类自身(static). 事件: 当我们在图形化界面上执行一个操作的时候，我们很显然的就会引发一个事件。绑定在这个事件上的方法称为事件驱动程序。 函数成员: 单独拿出函数成员在这里进行重点的剖析。</summary></entry><entry><title type="html">C# week1</title><link href="https://aaron19960821.github.io/blog/c-1/" rel="alternate" type="text/html" title="C# week1" /><published>2017-03-04T00:00:00+08:00</published><updated>2017-03-04T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/c#1</id><content type="html" xml:base="https://aaron19960821.github.io/blog/c-1/">&lt;p&gt;OOP
 面向过程编程及其先天的缺陷
 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。
 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。&lt;/p&gt;
@@ -468,7 +468,7 @@ class BirthsListTest
 
 &lt;h2 id=&quot;string类&quot;&gt;string类&lt;/h2&gt;
 &lt;h3 id=&quot;栈和堆的关系&quot;&gt;栈和堆的关系&lt;/h3&gt;
-&lt;p&gt;所有的引用空间所指向的对象都会被.NET框架所控制，在结束程序的时候，堆的空间会自动被回收，所以我们不需要考虑内存空间泄漏的问题。&lt;/p&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">OOP 面向过程编程及其先天的缺陷 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。</summary></entry><entry><title type="html">Polya Theory</title><link href="https://aaron19960821.github.io//blog/Polya/" rel="alternate" type="text/html" title="Polya Theory" /><published>2017-03-01T00:00:00+08:00</published><updated>2017-03-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Polya</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Polya/">&lt;h2 id=&quot;问题的给出&quot;&gt;问题的给出&lt;/h2&gt;
+&lt;p&gt;所有的引用空间所指向的对象都会被.NET框架所控制，在结束程序的时候，堆的空间会自动被回收，所以我们不需要考虑内存空间泄漏的问题。&lt;/p&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">OOP 面向过程编程及其先天的缺陷 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。</summary></entry><entry><title type="html">Polya Theory</title><link href="https://aaron19960821.github.io/blog/Polya/" rel="alternate" type="text/html" title="Polya Theory" /><published>2017-03-01T00:00:00+08:00</published><updated>2017-03-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Polya</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Polya/">&lt;h2 id=&quot;问题的给出&quot;&gt;问题的给出&lt;/h2&gt;
 &lt;p&gt;先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢?
 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。
 但是，如果考虑同构又要怎么做呢？
@@ -500,7 +500,7 @@ Burnside定理: G是X的置换群，而且C是X中满足下面的一个着色集
 
 \[C(f)=\sum f(x)\]
 
-&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry><entry><title type="html">插头DP</title><link href="https://aaron19960821.github.io//blog/Chatou-dp/" rel="alternate" type="text/html" title="插头DP" /><published>2017-02-28T00:00:00+08:00</published><updated>2017-02-28T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Chatou-dp</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Chatou-dp/">&lt;h2 id=&quot;问题的引入&quot;&gt;问题的引入&lt;/h2&gt;
+&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry><entry><title type="html">插头DP</title><link href="https://aaron19960821.github.io/blog/Chatou-dp/" rel="alternate" type="text/html" title="插头DP" /><published>2017-02-28T00:00:00+08:00</published><updated>2017-02-28T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Chatou-dp</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Chatou-dp/">&lt;h2 id=&quot;问题的引入&quot;&gt;问题的引入&lt;/h2&gt;
 &lt;p&gt;在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。
 我们先来看一个十分简单的问题：&lt;/p&gt;
 
@@ -522,7 +522,7 @@ Burnside定理: G是X的置换群，而且C是X中满足下面的一个着色集
 为了防止不必要的状态的出现，我们可以使用BFS扩展的方式来进行迭代，得到结果。
 几个题目：
 &lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/ural1519.cpp&quot;&gt;ural1519&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/hdu1964.cpp&quot;&gt;hdu1964&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">问题的引入 在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。 我们先来看一个十分简单的问题：</summary></entry><entry><title type="html">bitmask dp</title><link href="https://aaron19960821.github.io//blog/Bitmask-dp/" rel="alternate" type="text/html" title="bitmask dp" /><published>2017-02-16T00:00:00+08:00</published><updated>2017-02-16T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Bitmask-dp</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Bitmask-dp/">&lt;p&gt;The link of essay:
+&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/hdu1964.cpp&quot;&gt;hdu1964&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">问题的引入 在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。 我们先来看一个十分简单的问题：</summary></entry><entry><title type="html">bitmask dp</title><link href="https://aaron19960821.github.io/blog/Bitmask-dp/" rel="alternate" type="text/html" title="bitmask dp" /><published>2017-02-16T00:00:00+08:00</published><updated>2017-02-16T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Bitmask-dp</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Bitmask-dp/">&lt;p&gt;The link of essay:
 https://github.com/Aaron19960821/icpcarchive/blob/master/essayFromNationTeam/动态规划之状态压缩.pdf&lt;/p&gt;
 
 &lt;p&gt;Bitmask is a very important technique to divide a huge problem into smaller ones to ensure they are independent from each other. After reading the essay from Chou Wei on the train, I acquired more understanding of this topic.&lt;/p&gt;
@@ -538,7 +538,7 @@ Sample problems in this essay
 &lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2411.cpp&quot;&gt;poj2411&lt;/a&gt;
 &lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2441.cpp&quot;&gt;poj2441&lt;/a&gt;
 &lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2663.cpp&quot;&gt;poj2663&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">The link of essay: https://github.com/Aaron19960821/icpcarchive/blob/master/essayFromNationTeam/动态规划之状态压缩.pdf</summary></entry><entry><title type="html">Suffix Array</title><link href="https://aaron19960821.github.io//blog/Suffix-array/" rel="alternate" type="text/html" title="Suffix Array" /><published>2017-01-13T00:00:00+08:00</published><updated>2017-01-13T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Suffix-array</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Suffix-array/">&lt;h2 id=&quot;基本概念&quot;&gt;基本概念&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">The link of essay: https://github.com/Aaron19960821/icpcarchive/blob/master/essayFromNationTeam/动态规划之状态压缩.pdf</summary></entry><entry><title type="html">Suffix Array</title><link href="https://aaron19960821.github.io/blog/Suffix-array/" rel="alternate" type="text/html" title="Suffix Array" /><published>2017-01-13T00:00:00+08:00</published><updated>2017-01-13T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Suffix-array</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Suffix-array/">&lt;h2 id=&quot;基本概念&quot;&gt;基本概念&lt;/h2&gt;
 &lt;p&gt;在了解后缀数组之前，很显然我们需要了解一些基本的概念。
 字符集：构造了一个全序的关系，即集合里面的元素要么是大于关系要么是小于关系。
 子串：记为$S[i..j]$,表示字符串第i个字符到j-1个字符的子序列
