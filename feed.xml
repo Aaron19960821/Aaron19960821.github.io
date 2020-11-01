@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io/" rel="alternate" type="text/html" /><updated>2020-10-11T20:36:02+08:00</updated><id>https://aaron19960821.github.io/feed.xml</id><entry><title type="html">Convexity</title><link href="https://aaron19960821.github.io/blog/Convexity/" rel="alternate" type="text/html" title="Convexity" /><published>2020-10-11T00:00:00+08:00</published><updated>2020-10-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Convexity</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Convexity/">&lt;!-- Write from here your post !!! --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io/" rel="alternate" type="text/html" /><updated>2020-11-01T23:31:48+08:00</updated><id>https://aaron19960821.github.io/feed.xml</id><entry><title type="html">Turing Machine</title><link href="https://aaron19960821.github.io/blog/turing_machine/" rel="alternate" type="text/html" title="Turing Machine" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/turing_machine</id><content type="html" xml:base="https://aaron19960821.github.io/blog/turing_machine/">&lt;h1 id=&quot;turing-machine--the-computation-model&quot;&gt;Turing Machine – The Computation Model&lt;/h1&gt;
+
+&lt;h2 id=&quot;turing-machine&quot;&gt;Turing Machine&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Single-Tape Turing Machine: a quadruple \(M = (K, \Sigma, \delta, s)\)
+– \(K\): a finite set of states.
+– \(s \in K\): initial state.
+– \(\Sigma\): A finite set of symbols, includes \(\bigsqcup\)(Blank symbol) and \(\triangleright\) (first symbol).
+– \(\delta\): \(K \times \Sigma \to (K \cup \{h, yes,no\}) \times \Sigma \times \{\leftarrow, \rightarrow, -\}\)
+– Note that the cursor never falls off the left end of the string.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The halting of a turing machine
+– “yes”: \(M\) accepts the input \(x\), and \(M(x) = &quot;yes&quot;\).
+– “no”: \(M\) rejects the input \(x\), and \(M(x)=&quot;no&quot;\)
+– \(h\): \(M(x)=y\) means the string consists of a \(\triangleright\).
+– If \(M\) never halts on \(x\), then we write \(M(x)=\nearrow\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Multiple Strings Turing Machine: a quadrupe \(M = (K, \Sigma, \delta, s)\)
+– \(\delta\): \(K \times \Sigma^k \to (K \cup \{h, yes,no\}) \times (\Sigma \times \{\leftarrow, \rightarrow, -\})^k\)
+– All strings are started with \(\triangleright\).
+– The first string is the input and \(k\)th string is the output.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nondeterministic Turing machine: a quadrupe \(N=(K, \Sigma, \Delta, s)\).
+– \(\Delta\) is a relation, not a function anymore, there may be multiple next steps.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;languages&quot;&gt;Languages&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We let \(L \subseteq (\Sigma - \{\bigsqcup\})^*\)  be a language.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recursive and decidable: For a language \(L\), if there exists a turing machine such that:&lt;br /&gt;
+– if \(x \in L\), then \(M(x)=&quot;yes&quot;\)&lt;br /&gt;
+– if \(x \notin L\), then \(M(x)=&quot;no&quot;\)
+We will say \(M\) decides \(L\) and \(L\) is recursive and decidable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Recursively enumerable or semidecidable: For a language $L$, if there exists a turing machine such that:&lt;br /&gt;
+– if \(x \in L\), then \(M(x)=&quot;yes&quot;\)&lt;br /&gt;
+– if \(x \notin L\), then \(M(x)=&quot;\nearrow&quot;\)
+We will say \(M\) accepts \(L\) and \(L\) is recursively enumerable and semidecidable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Suppose \(M\) is a turing machine accepting \(L\), then we write \(L(M)=L\). If \(M(x)=\nearrow\) for all input, then we have \(L(M)=\varnothing\).&lt;/p&gt;
+
+&lt;p&gt;A property of an RE language can be defined by the set \(C\) of all RE languages that satisfy it. 
+A property is &lt;strong&gt;trivial&lt;/strong&gt; if \(C=RE\) or \(C=\varnothing\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rice Theorem&lt;/strong&gt;: Suppose \(C \neq \varnothing\) is a proper subset of the set of all recursively enumerable languages. Then the question \(L(M) \in C\) is undecidable.&lt;/p&gt;
+
+&lt;h2 id=&quot;complexity&quot;&gt;Complexity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;If a turing machine \(M\) operates within time \(f(n)\) for \(f: \mathbb{N} \to \mathbb{N}\) for any input string x, the time required by \(M\) on x is at most $$f(&lt;/td&gt;
+          &lt;td&gt;x&lt;/td&gt;
+          &lt;td&gt;)\(, note as\)O(f(&lt;/td&gt;
+          &lt;td&gt;x&lt;/td&gt;
+          &lt;td&gt;))$$.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Time complexity classes: Suppose language \(L \subseteq (\Sigma - \{\bigsqcup\})^*\) is decided by a multistring TM operating in time \(f(n)\). Then we say \(L \in TIME(f(n))\), \(TIME(f(n))\) is a complexity class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linear Speedup Theorem&lt;/strong&gt;: Let \(L \in TIME(f(n))\). Then for any \(\epsilon &amp;gt;0\), \(L \in TIME(f'(n))\), where \(f'(n)= \epsilon f(n)+n+2\)&lt;/li&gt;
+  &lt;li&gt;Linear speed up theorem tells us that any polynomial time bound can be represented by its leading term \(n^k\) for some \(k \geq 1\).&lt;/li&gt;
+  &lt;li&gt;If \(L \in TIME(n^k)\) for some \(k \in \mathbb{N}\), it is a polynomial decidable language.&lt;/li&gt;
+  &lt;li&gt;If a turing machine can decide \(L\) in a space bound \(f(n)\), then we have \(L \in SPACE(f(n))\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;P and NP&lt;/strong&gt;: Specifically, if a language can be decided by a turing machine in a polynomial time bound, then we call it a &lt;strong&gt;P&lt;/strong&gt; problem. If a language can be decided by a nondeterministic turing machine in polynomial time, then we call it an &lt;strong&gt;NP&lt;/strong&gt; problem.  We have:&lt;br /&gt;
+\(P \subseteq NP\)&lt;/li&gt;
+  &lt;li&gt;A very important open problem: $P=NP$?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;undecidability&quot;&gt;Undecidability&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If a language can not be decided by a turing machine, then we call it &lt;strong&gt;undecidable&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;First, we introduce a famous language that can not be decided by turing machines, the &lt;strong&gt;halting problem&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given such set:&lt;/p&gt;
+
+\[H = \{M,x | M \text{will halt on input x}\}\]
+
+&lt;p&gt;We assume that \(M_H\) will decide this language, then we construct the following language:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;D(x):
+  if M(D, x) halts:
+    Run forever.
+  else:
+    halt
+  endif
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then we find that if we input \(D\) itself, it will run into contradiction, thus this language is undecidable.&lt;/p&gt;
+
+&lt;p&gt;Moreover, for any language, if we can find a transformation $R$ to a undecidable language, then we can confirm this language is also a undecidable language.&lt;/p&gt;</content><author><name></name></author><category term="complexity" /><summary type="html">Turing Machine – The Computation Model</summary></entry><entry><title type="html">Convexity</title><link href="https://aaron19960821.github.io/blog/Convexity/" rel="alternate" type="text/html" title="Convexity" /><published>2020-10-11T00:00:00+08:00</published><updated>2020-10-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Convexity</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Convexity/">&lt;!-- Write from here your post !!! --&gt;
 
 &lt;h1 id=&quot;convexity&quot;&gt;Convexity&lt;/h1&gt;
 
@@ -582,20 +687,4 @@ Burnside定理: G是X的置换群，而且C是X中满足下面的一个着色集
 为了防止不必要的状态的出现，我们可以使用BFS扩展的方式来进行迭代，得到结果。
 几个题目：
 &lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/ural1519.cpp&quot;&gt;ural1519&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/hdu1964.cpp&quot;&gt;hdu1964&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">问题的引入 在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。 我们先来看一个十分简单的问题：</summary></entry><entry><title type="html">bitmask dp</title><link href="https://aaron19960821.github.io/blog/Bitmask-dp/" rel="alternate" type="text/html" title="bitmask dp" /><published>2017-02-16T00:00:00+08:00</published><updated>2017-02-16T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Bitmask-dp</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Bitmask-dp/">&lt;p&gt;The link of essay:
-https://github.com/Aaron19960821/icpcarchive/blob/master/essayFromNationTeam/动态规划之状态压缩.pdf&lt;/p&gt;
-
-&lt;p&gt;Bitmask is a very important technique to divide a huge problem into smaller ones to ensure they are independent from each other. After reading the essay from Chou Wei on the train, I acquired more understanding of this topic.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-we-have-to-do&quot;&gt;What we have to do&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;We have to make sure the definition of the problems.&lt;/li&gt;
-  &lt;li&gt;We have to know if one situation can transform to another one.(Usually we use bitmask calculation).&lt;/li&gt;
-  &lt;li&gt;We do not always use binary to represent our problem, other methods is welcomed if it is necessary.&lt;/li&gt;
-  &lt;li&gt;We use this method when the problem is referring to conbination rather than permutation.
-Sample problems in this essay
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj1185.cpp&quot;&gt;poj1185&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2411.cpp&quot;&gt;poj2411&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2441.cpp&quot;&gt;poj2441&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/poj2663.cpp&quot;&gt;poj2663&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">The link of essay: https://github.com/Aaron19960821/icpcarchive/blob/master/essayFromNationTeam/动态规划之状态压缩.pdf</summary></entry></feed>
+&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/hdu1964.cpp&quot;&gt;hdu1964&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">问题的引入 在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。 我们先来看一个十分简单的问题：</summary></entry></feed>

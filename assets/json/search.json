@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Turing Machine",
+      "tags"     : "complexity",
+      "url"     : "/blog/turing_machine/",
+      "date"     : "1/11/2020"
+    } ,
+  
+    {
       "title"    : "Convexity",
       "tags"     : "Optimization, math",
       "url"     : "/blog/Convexity/",
