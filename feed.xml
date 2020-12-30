@@ -1,57 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io/" rel="alternate" type="text/html" /><updated>2020-11-01T23:31:48+08:00</updated><id>https://aaron19960821.github.io/feed.xml</id><entry><title type="html">Turing Machine</title><link href="https://aaron19960821.github.io/blog/turing_machine/" rel="alternate" type="text/html" title="Turing Machine" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/turing_machine</id><content type="html" xml:base="https://aaron19960821.github.io/blog/turing_machine/">&lt;h1 id=&quot;turing-machine--the-computation-model&quot;&gt;Turing Machine – The Computation Model&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io//" rel="alternate" type="text/html" /><updated>2020-12-30T21:06:24+08:00</updated><id>https://aaron19960821.github.io//feed.xml</id><entry><title type="html">Turing Machine</title><link href="https://aaron19960821.github.io//blog/turing_machine/" rel="alternate" type="text/html" title="Turing Machine" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/turing_machine</id><content type="html" xml:base="https://aaron19960821.github.io//blog/turing_machine/">&lt;h1 id=&quot;turing-machine--the-computation-model&quot;&gt;Turing Machine – The Computation Model&lt;/h1&gt;
 
 &lt;h2 id=&quot;turing-machine&quot;&gt;Turing Machine&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Single-Tape Turing Machine: a quadruple \(M = (K, \Sigma, \delta, s)\)
-– \(K\): a finite set of states.
-– \(s \in K\): initial state.
-– \(\Sigma\): A finite set of symbols, includes \(\bigsqcup\)(Blank symbol) and \(\triangleright\) (first symbol).
-– \(\delta\): \(K \times \Sigma \to (K \cup \{h, yes,no\}) \times \Sigma \times \{\leftarrow, \rightarrow, -\}\)
+    &lt;p&gt;Single-Tape Turing Machine: a quadruple $M = (K, \Sigma, \delta, s)$
+– $K$: a finite set of states.
+– $s \in K$: initial state.
+– $\Sigma$: A finite set of symbols, includes $\bigsqcup$(Blank symbol) and $\triangleright$ (first symbol).
+– $\delta$: $K \times \Sigma \to (K \cup {h, yes,no}) \times \Sigma \times {\leftarrow, \rightarrow, -}$
 – Note that the cursor never falls off the left end of the string.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The halting of a turing machine
-– “yes”: \(M\) accepts the input \(x\), and \(M(x) = &quot;yes&quot;\).
-– “no”: \(M\) rejects the input \(x\), and \(M(x)=&quot;no&quot;\)
-– \(h\): \(M(x)=y\) means the string consists of a \(\triangleright\).
-– If \(M\) never halts on \(x\), then we write \(M(x)=\nearrow\)&lt;/p&gt;
+– “yes”: $M$ accepts the input $x$, and $M(x) = “yes”$.
+– “no”: $M$ rejects the input $x$, and $M(x)=”no”$
+– $h$: $M(x)=y$ means the string consists of a $\triangleright$.
+– If $M$ never halts on $x$, then we write $M(x)=\nearrow$&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Multiple Strings Turing Machine: a quadrupe \(M = (K, \Sigma, \delta, s)\)
-– \(\delta\): \(K \times \Sigma^k \to (K \cup \{h, yes,no\}) \times (\Sigma \times \{\leftarrow, \rightarrow, -\})^k\)
-– All strings are started with \(\triangleright\).
-– The first string is the input and \(k\)th string is the output.&lt;/p&gt;
+    &lt;p&gt;Multiple Strings Turing Machine: a quadrupe $M = (K, \Sigma, \delta, s)$
+– $\delta$: $K \times \Sigma^k \to (K \cup {h, yes,no}) \times (\Sigma \times {\leftarrow, \rightarrow, -})^k$
+– All strings are started with $\triangleright$.
+– The first string is the input and $k$th string is the output.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Nondeterministic Turing machine: a quadrupe \(N=(K, \Sigma, \Delta, s)\).
-– \(\Delta\) is a relation, not a function anymore, there may be multiple next steps.&lt;/p&gt;
+    &lt;p&gt;Nondeterministic Turing machine: a quadrupe $N=(K, \Sigma, \Delta, s)$.
+– $\Delta$ is a relation, not a function anymore, there may be multiple next steps.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;languages&quot;&gt;Languages&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We let \(L \subseteq (\Sigma - \{\bigsqcup\})^*\)  be a language.&lt;/li&gt;
+  &lt;li&gt;We let $L \subseteq (\Sigma - {\bigsqcup})^*$  be a language.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Recursive and decidable: For a language \(L\), if there exists a turing machine such that:&lt;br /&gt;
-– if \(x \in L\), then \(M(x)=&quot;yes&quot;\)&lt;br /&gt;
-– if \(x \notin L\), then \(M(x)=&quot;no&quot;\)
-We will say \(M\) decides \(L\) and \(L\) is recursive and decidable.&lt;/p&gt;
+    &lt;p&gt;Recursive and decidable: For a language $L$, if there exists a turing machine such that:&lt;br /&gt;
+– if $x \in L$, then $M(x)=”yes”$&lt;br /&gt;
+– if $x \notin L$, then $$M(x)=”no”$
+We will say $M$ decides $L$ and $L$ is recursive and decidable.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Recursively enumerable or semidecidable: For a language $L$, if there exists a turing machine such that:&lt;br /&gt;
-– if \(x \in L\), then \(M(x)=&quot;yes&quot;\)&lt;br /&gt;
-– if \(x \notin L\), then \(M(x)=&quot;\nearrow&quot;\)
-We will say \(M\) accepts \(L\) and \(L\) is recursively enumerable and semidecidable.&lt;/li&gt;
+– if $x \in L$, then $M(x)=”yes”$&lt;br /&gt;
+– if $x \notin L$, then $M(x)=”\nearrow”$
+We will say $M$ accepts $L$ and $L$ is recursively enumerable and semidecidable.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Suppose \(M\) is a turing machine accepting \(L\), then we write \(L(M)=L\). If \(M(x)=\nearrow\) for all input, then we have \(L(M)=\varnothing\).&lt;/p&gt;
+&lt;p&gt;Suppose $M$ is a turing machine accepting $L$, then we write $L(M)=L$. If $M(x)=\nearrow$ for all input, then we have $L(M)=\varnothing$.&lt;/p&gt;
 
-&lt;p&gt;A property of an RE language can be defined by the set \(C\) of all RE languages that satisfy it. 
-A property is &lt;strong&gt;trivial&lt;/strong&gt; if \(C=RE\) or \(C=\varnothing\)&lt;/p&gt;
+&lt;p&gt;A property of an RE language can be defined by the set $C$ of all RE languages that satisfy it. 
+A property is &lt;strong&gt;trivial&lt;/strong&gt; if $C=RE$ or $C=\varnothing$&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Rice Theorem&lt;/strong&gt;: Suppose \(C \neq \varnothing\) is a proper subset of the set of all recursively enumerable languages. Then the question \(L(M) \in C\) is undecidable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rice Theorem&lt;/strong&gt;: Suppose $C \neq \varnothing$ is a proper subset of the set of all recursively enumerable languages. Then the question $L(M) \in C$ is undecidable.&lt;/p&gt;
 
 &lt;h2 id=&quot;complexity&quot;&gt;Complexity&lt;/h2&gt;
 
@@ -60,20 +60,20 @@ A property is &lt;strong&gt;trivial&lt;/strong&gt; if \(C=RE\) or \(C=\varnothin
     &lt;table&gt;
       &lt;tbody&gt;
         &lt;tr&gt;
-          &lt;td&gt;If a turing machine \(M\) operates within time \(f(n)\) for \(f: \mathbb{N} \to \mathbb{N}\) for any input string x, the time required by \(M\) on x is at most $$f(&lt;/td&gt;
+          &lt;td&gt;If a turing machine $M$ operates within time $f(n)$ for $f: \mathbb{N} \to \mathbb{N}$ for any input string x, the time required by $M$ on x is at most $f(&lt;/td&gt;
           &lt;td&gt;x&lt;/td&gt;
-          &lt;td&gt;)\(, note as\)O(f(&lt;/td&gt;
+          &lt;td&gt;)$, note as $O(f(&lt;/td&gt;
           &lt;td&gt;x&lt;/td&gt;
-          &lt;td&gt;))$$.&lt;/td&gt;
+          &lt;td&gt;))$.&lt;/td&gt;
         &lt;/tr&gt;
       &lt;/tbody&gt;
     &lt;/table&gt;
   &lt;/li&gt;
-  &lt;li&gt;Time complexity classes: Suppose language \(L \subseteq (\Sigma - \{\bigsqcup\})^*\) is decided by a multistring TM operating in time \(f(n)\). Then we say \(L \in TIME(f(n))\), \(TIME(f(n))\) is a complexity class.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Linear Speedup Theorem&lt;/strong&gt;: Let \(L \in TIME(f(n))\). Then for any \(\epsilon &amp;gt;0\), \(L \in TIME(f'(n))\), where \(f'(n)= \epsilon f(n)+n+2\)&lt;/li&gt;
+  &lt;li&gt;Time complexity classes: Suppose language $L \subseteq (\Sigma - {\bigsqcup})^*$ is decided by a multistring TM operating in time $f(n)$. Then we say $L \in TIME(f(n))$, $TIME(f(n))$ is a complexity class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linear Speedup Theorem&lt;/strong&gt;: Let $L \in TIME(f(n))$. Then for any $\epsilon &amp;gt;0$, $L \in TIME(f’(n))$, where $f’(n)= \epsilon f(n)+n+2$&lt;/li&gt;
   &lt;li&gt;Linear speed up theorem tells us that any polynomial time bound can be represented by its leading term \(n^k\) for some \(k \geq 1\).&lt;/li&gt;
-  &lt;li&gt;If \(L \in TIME(n^k)\) for some \(k \in \mathbb{N}\), it is a polynomial decidable language.&lt;/li&gt;
-  &lt;li&gt;If a turing machine can decide \(L\) in a space bound \(f(n)\), then we have \(L \in SPACE(f(n))\)&lt;/li&gt;
+  &lt;li&gt;If $L \in TIME(n^k)$ for some $k \in \mathbb{N}$, it is a polynomial decidable language.&lt;/li&gt;
+  &lt;li&gt;If a turing machine can decide $L$ in a space bound $f(n)$, then we have $L \in SPACE(f(n))$&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;P and NP&lt;/strong&gt;: Specifically, if a language can be decided by a turing machine in a polynomial time bound, then we call it a &lt;strong&gt;P&lt;/strong&gt; problem. If a language can be decided by a nondeterministic turing machine in polynomial time, then we call it an &lt;strong&gt;NP&lt;/strong&gt; problem.  We have:&lt;br /&gt;
 \(P \subseteq NP\)&lt;/li&gt;
   &lt;li&gt;A very important open problem: $P=NP$?&lt;/li&gt;
@@ -101,50 +101,50 @@ A property is &lt;strong&gt;trivial&lt;/strong&gt; if \(C=RE\) or \(C=\varnothin
 end
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Then we find that if we input \(D\) itself, it will run into contradiction, thus this language is undecidable.&lt;/p&gt;
+&lt;p&gt;Then we find that if we input $D$ itself, it will run into contradiction, thus this language is undecidable.&lt;/p&gt;
 
-&lt;p&gt;Moreover, for any language, if we can find a transformation $R$ to a undecidable language, then we can confirm this language is also a undecidable language.&lt;/p&gt;</content><author><name></name></author><category term="complexity" /><summary type="html">Turing Machine – The Computation Model</summary></entry><entry><title type="html">Convexity</title><link href="https://aaron19960821.github.io/blog/Convexity/" rel="alternate" type="text/html" title="Convexity" /><published>2020-10-11T00:00:00+08:00</published><updated>2020-10-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Convexity</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Convexity/">&lt;!-- Write from here your post !!! --&gt;
+&lt;p&gt;Moreover, for any language, if we can find a transformation $R$ to a undecidable language, then we can confirm this language is also a undecidable language.&lt;/p&gt;</content><author><name></name></author><category term="complexity" /><summary type="html">Turing Machine – The Computation Model</summary></entry><entry><title type="html">Convexity</title><link href="https://aaron19960821.github.io//blog/Convexity/" rel="alternate" type="text/html" title="Convexity" /><published>2020-10-11T00:00:00+08:00</published><updated>2020-10-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Convexity</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Convexity/">&lt;!-- Write from here your post !!! --&gt;
 
 &lt;h1 id=&quot;convexity&quot;&gt;Convexity&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Convex Set&lt;/strong&gt;: For any \(x,y \in \mathrm{X}\), we have:&lt;br /&gt;
-\(\alpha x + (1 - \alpha)y \in \mathrm{X}\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Convex Set&lt;/strong&gt;: For any $x,y \in \mathrm{X}$, we have:&lt;br /&gt;
+$\alpha x + (1 - \alpha)y \in \mathrm{X}$&lt;/p&gt;
 
 &lt;p&gt;To define the convex functions, first we introduce two concepts: &lt;strong&gt;domain&lt;/strong&gt; and &lt;strong&gt;epigraph&lt;/strong&gt; of a function.&lt;/p&gt;
 
 &lt;p&gt;\(\text{dom}f := \{x \in \mathrm{R}^D | f(x) &amp;lt; +\infty \}\)&lt;br /&gt;
 \(\text{epi}f := \{(x,t) \in \text{dom}f * R | t \geq f(x)\}\)&lt;br /&gt;
-&lt;strong&gt;Convex Function&lt;/strong&gt;: A function \(f\): \(\mathrm{R}^D \to [-\infty, +\infty]\) is convex if and only if \(\text{epi} f\) is convex.&lt;/p&gt;
+&lt;strong&gt;Convex Function&lt;/strong&gt;: A function $f$: $\mathrm{R}^D \to [-\infty, +\infty]$ is convex if and only if $\text{epi} f$ is convex.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Proposition 1&lt;/strong&gt;: A function \(f\): \(\mathrm{X} \to [-\infty, +\infty]\) is convex if and only if \(\text{dom} f\) is convex and for any \(x,y \in \text{dom}f\), we have: &lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 1&lt;/strong&gt;: A function $f$: $\mathrm{X} \to [-\infty, +\infty]$ is convex if and only if $\text{dom} f$ is convex and for any $x,y \in \text{dom}f$, we have: &lt;br /&gt;
 \(f(\alpha x + (1-\alpha x)y) \leq \alpha f(x) + (1-\alpha)f(y)\)&lt;/p&gt;
 
 &lt;p&gt;From &lt;strong&gt;Proposition 1&lt;/strong&gt;, we will get: &lt;br /&gt;
 \(E[f(\epsilon)] \geq f(E[\epsilon])\)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Differentiability&lt;/strong&gt;: We say a function \(f: \mathrm{R}^D \to [-\infty, +\infty]\) is differentiable at \(x \in \text{dom}f\) if and only if there exists some \(g_x \in \mathrm{R}^D\), such that:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Differentiability&lt;/strong&gt;: We say a function $f: \mathrm{R}^D \to [-\infty, +\infty]$ is differentiable at $x \in \text{dom}f$ if and only if there exists some $g_x \in \mathrm{R}^D$, such that:&lt;/p&gt;
 
 \[f(y) = f(x) + \langle g_x, y-x \rangle + o(||y-x||_2)\]
 
-&lt;p&gt;If such \(g_x\) exists, then we call it &lt;strong&gt;gradient&lt;/strong&gt;, noted as \(\nabla f(x)\) and we have:&lt;/p&gt;
+&lt;p&gt;If such $g_x$ exists, then we call it &lt;strong&gt;gradient&lt;/strong&gt;, noted as $\nabla f(x)$ and we have:&lt;/p&gt;
 
 \[[\nabla f(x)]^{(d)} = \frac{\partial f}{\partial x^{(d)}}(x), \forall d \in [D]\]
 
-&lt;p&gt;&lt;strong&gt;Proposition 2&lt;/strong&gt;: Let \(f: \mathrm{R}^D \to (-\infty, +\infty]\) ve convex and differentiable on \(\text{dom}f\), Let \(\mathrm{X} \subseteq R^D\), then we have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition 2&lt;/strong&gt;: Let $f: \mathrm{R}^D \to (-\infty, +\infty]$ ve convex and differentiable on $\text{dom}f$, Let $\mathrm{X} \subseteq R^D$, then we have:&lt;/p&gt;
 
 &lt;p&gt;\(x^{*} \in \text{argmin}_{x \in \mathrm{X}} f(x)\) 
 if and only if:&lt;br /&gt;
 \(\langle \nabla f(x^*), x-x^* \rangle \geq 0, \forall x \in \mathrm{X}\)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;:&lt;br /&gt;
-\(=&amp;gt;\)  &lt;br /&gt;
+$=&amp;gt;$   &lt;br /&gt;
 Suppose we have some $z$ that have:&lt;br /&gt;
 \(\langle \nabla f(x^*), z-x^* \rangle &amp;lt; 0\)
-Consider the function \(\phi(\alpha) = f(x^* + \alpha(z-x^*)), \alpha \in [0,1]\), then we have: \&lt;/p&gt;
+Consider the function $\phi(\alpha) = f(x^* + \alpha(z-x^*)), \alpha \in [0,1]$, then we have: \&lt;/p&gt;
 
 &lt;p&gt;\(\phi^{'}(0) = \langle \nabla f(x^*), z-x^* \rangle &amp;lt; 0\)
-Then if $\alpha$ is small enough, then we have \(f(x^* + \alpha(z-x^*)) &amp;lt; f(x^*)\) and it is a contradiction.&lt;br /&gt;
-\(&amp;lt;=\)&lt;br /&gt;
+Then if $\alpha$ is small enough, then we have $f(x^* + \alpha(z-x^&lt;em&gt;)) &amp;lt; f(x^&lt;/em&gt;)$ and it is a contradiction.&lt;br /&gt;
+$&amp;lt;=$&lt;br /&gt;
 Follow the convexity, it is very easy to prove.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Proposition 3&lt;/strong&gt;: A function is a differentiable convex function if and only if the &lt;strong&gt;Hessian&lt;/strong&gt; of this function is semi-positive definite.&lt;/p&gt;
@@ -159,11 +159,11 @@ Follow the convexity, it is very easy to prove.&lt;/p&gt;
 &lt;p&gt;Then we define:&lt;br /&gt;
 \(\phi(t;x,y) = f(x+t(y-x))\)&lt;/p&gt;
 
-&lt;p&gt;Since \(\phi\) can be seen as a part of \(f\), then we know that \(f\) is convex if and only if \(\phi\) is convex.&lt;/p&gt;
+&lt;p&gt;Since \(\phi\) can be seen as a part of $f$, then we know that $f$ is convex if and only if $\phi$ is convex.&lt;/p&gt;
 
 &lt;p&gt;Then we follow the 1-D dimention discussion above, we know that:&lt;/p&gt;
 
-\[\phi^{''}(t;x,y) = \langle y-x, [\nabla^2 f(x+t(y-x))](y-x) \geq 0\]</content><author><name></name></author><category term="Optimization" /><category term="math" /><summary type="html"></summary></entry><entry><title type="html">Radiometry</title><link href="https://aaron19960821.github.io/blog/radiometry/" rel="alternate" type="text/html" title="Radiometry" /><published>2020-04-23T23:55:04+08:00</published><updated>2020-04-23T23:55:04+08:00</updated><id>https://aaron19960821.github.io/blog/radiometry</id><content type="html" xml:base="https://aaron19960821.github.io/blog/radiometry/">&lt;!-- Write from here your post !!! --&gt;
+\[\phi^{''}(t;x,y) = \langle y-x, [\nabla^2 f(x+t(y-x))](y-x) \geq 0\]</content><author><name></name></author><category term="Optimization" /><category term="math" /><summary type="html"></summary></entry><entry><title type="html">Radiometry</title><link href="https://aaron19960821.github.io//blog/radiometry/" rel="alternate" type="text/html" title="Radiometry" /><published>2020-04-23T23:55:04+08:00</published><updated>2020-04-23T23:55:04+08:00</updated><id>https://aaron19960821.github.io//blog/radiometry</id><content type="html" xml:base="https://aaron19960821.github.io//blog/radiometry/">&lt;!-- Write from here your post !!! --&gt;
 
 &lt;h1 id=&quot;radiometry&quot;&gt;Radiometry&lt;/h1&gt;
 
@@ -250,7 +250,7 @@ L &amp;amp;= (I-K)^{-1}E
 
 \[L = E + KE + K^2E+ ...\]
 
-&lt;p&gt;We call $E$ as the emitted radiance in $x$, $KE$ as the direct illumination in $x$ and others are indirect illumination.&lt;/p&gt;</content><author><name></name></author><category term="rendering" /><category term="physics" /><category term="graphics" /><summary type="html"></summary></entry><entry><title type="html">Keywords about COVID-19 For me</title><link href="https://aaron19960821.github.io/blog/key_words_coronavirus/" rel="alternate" type="text/html" title="Keywords about COVID-19 For me" /><published>2020-02-19T00:00:00+08:00</published><updated>2020-02-19T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/key_words_coronavirus</id><content type="html" xml:base="https://aaron19960821.github.io/blog/key_words_coronavirus/">&lt;p&gt;写于2020.4.17&lt;/p&gt;
+&lt;p&gt;We call $E$ as the emitted radiance in $x$, $KE$ as the direct illumination in $x$ and others are indirect illumination.&lt;/p&gt;</content><author><name></name></author><category term="rendering" /><category term="physics" /><category term="graphics" /><summary type="html"></summary></entry><entry><title type="html">Keywords about COVID-19 For me</title><link href="https://aaron19960821.github.io//blog/key_words_coronavirus/" rel="alternate" type="text/html" title="Keywords about COVID-19 For me" /><published>2020-02-19T00:00:00+08:00</published><updated>2020-02-19T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/key_words_coronavirus</id><content type="html" xml:base="https://aaron19960821.github.io//blog/key_words_coronavirus/">&lt;p&gt;写于2020.4.17&lt;/p&gt;
 
 &lt;p&gt;再次打开这份文档。这些词语，更多的给我的是一种陌生的感觉。好像做了一场很长的梦。有好像我一直在梦中一直没有醒过来。盯着这些词语看了很久，我才意识到，这些都是发生在我身边的，真实的事情。这些事情从未离我远去。&lt;/p&gt;
 
@@ -280,7 +280,7 @@ L &amp;amp;= (I-K)^{-1}E
   &lt;li&gt;野蛮执法；暴力执法&lt;/li&gt;
   &lt;li&gt;蛋壳；自如&lt;/li&gt;
   &lt;li&gt;当当；强制复工&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">写于2020.4.17</summary></entry><entry><title type="html">Voice Control Gun</title><link href="https://aaron19960821.github.io/blog/voice_control_gun/" rel="alternate" type="text/html" title="Voice Control Gun" /><published>2020-02-05T00:00:00+08:00</published><updated>2020-02-05T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/voice_control_gun</id><content type="html" xml:base="https://aaron19960821.github.io/blog/voice_control_gun/">&lt;h2 id=&quot;voice-control-gun&quot;&gt;Voice Control Gun&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">写于2020.4.17</summary></entry><entry><title type="html">Voice Control Gun</title><link href="https://aaron19960821.github.io//blog/voice_control_gun/" rel="alternate" type="text/html" title="Voice Control Gun" /><published>2020-02-05T00:00:00+08:00</published><updated>2020-02-05T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/voice_control_gun</id><content type="html" xml:base="https://aaron19960821.github.io//blog/voice_control_gun/">&lt;h2 id=&quot;voice-control-gun&quot;&gt;Voice Control Gun&lt;/h2&gt;
 
 &lt;p&gt;This project is developed via Google Daydream platform and Unread Engine 4.&lt;/p&gt;
 
@@ -288,7 +288,7 @@ L &amp;amp;= (I-K)^{-1}E
 
 &lt;p&gt;For reference, please view the following video.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m3vz75XU9Ew&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/m3vz75XU9Ew/0.jpg&quot; alt=&quot;Reference Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="VR" /><category term="Course Work" /><summary type="html">Voice Control Gun</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://aaron19960821.github.io/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-03T21:22:16+08:00</published><updated>2019-10-03T21:22:16+08:00</updated><id>https://aaron19960821.github.io/blog/welcome-to-jekyll</id><content type="html" xml:base="https://aaron19960821.github.io/blog/welcome-to-jekyll/">&lt;ul id=&quot;markdown-toc&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m3vz75XU9Ew&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/m3vz75XU9Ew/0.jpg&quot; alt=&quot;Reference Video&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="VR" /><category term="Course Work" /><summary type="html">Voice Control Gun</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://aaron19960821.github.io//blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-03T21:22:16+08:00</published><updated>2019-10-03T21:22:16+08:00</updated><id>https://aaron19960821.github.io//blog/welcome-to-jekyll</id><content type="html" xml:base="https://aaron19960821.github.io//blog/welcome-to-jekyll/">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#examples&quot; id=&quot;markdown-toc-examples&quot;&gt;Examples&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#table&quot; id=&quot;markdown-toc-table&quot;&gt;Table&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#list&quot; id=&quot;markdown-toc-list&quot;&gt;List&lt;/a&gt;&lt;/li&gt;
@@ -468,7 +468,7 @@ To listen to the full song, open your Spotify and start these musics.
 
 &lt;p&gt;Goodbye! :wink:&lt;/p&gt;
 
-&lt;hr style=&quot;border-top: 1px solid #9D9D9D ; color: #9D9D9D ;&quot; class=&quot;endpost&quot; /&gt;</content><author><name></name></author><category term="example" /><category term="welcome" /><category term="jekyll" /><category term="typing" /></entry><entry><title type="html">c# week 2</title><link href="https://aaron19960821.github.io/blog/c-2/" rel="alternate" type="text/html" title="c# week 2" /><published>2017-03-11T00:00:00+08:00</published><updated>2017-03-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/c#2</id><content type="html" xml:base="https://aaron19960821.github.io/blog/c-2/">&lt;h2 id=&quot;有关类的知识&quot;&gt;有关类的知识&lt;/h2&gt;
+&lt;hr style=&quot;border-top: 1px solid #9D9D9D ; color: #9D9D9D ;&quot; class=&quot;endpost&quot; /&gt;</content><author><name></name></author><category term="example" /><category term="welcome" /><category term="jekyll" /><category term="typing" /></entry><entry><title type="html">c# week 2</title><link href="https://aaron19960821.github.io//blog/c-2/" rel="alternate" type="text/html" title="c# week 2" /><published>2017-03-11T00:00:00+08:00</published><updated>2017-03-11T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/c#2</id><content type="html" xml:base="https://aaron19960821.github.io//blog/c-2/">&lt;h2 id=&quot;有关类的知识&quot;&gt;有关类的知识&lt;/h2&gt;
 &lt;h3 id=&quot;类的解剖&quot;&gt;类的解剖&lt;/h3&gt;
 &lt;p&gt;类的成分会有下面的几种情况。&lt;/p&gt;
 &lt;ul&gt;
@@ -608,7 +608,7 @@ class BirthsListTest
 &lt;ul&gt;
   &lt;li&gt;索引器信号当中不包含元素类型&lt;/li&gt;
   &lt;li&gt;索引器信号当中不包含参数的名字。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">有关类的知识 类的解剖 类的成分会有下面的几种情况。 成员变量: 用于表示数据，可以属于对象的一个实例，也可以属于类自身(static). 事件: 当我们在图形化界面上执行一个操作的时候，我们很显然的就会引发一个事件。绑定在这个事件上的方法称为事件驱动程序。 函数成员: 单独拿出函数成员在这里进行重点的剖析。</summary></entry><entry><title type="html">C# week1</title><link href="https://aaron19960821.github.io/blog/c-1/" rel="alternate" type="text/html" title="C# week1" /><published>2017-03-04T00:00:00+08:00</published><updated>2017-03-04T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/c#1</id><content type="html" xml:base="https://aaron19960821.github.io/blog/c-1/">&lt;p&gt;OOP
+&lt;/ul&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">有关类的知识 类的解剖 类的成分会有下面的几种情况。 成员变量: 用于表示数据，可以属于对象的一个实例，也可以属于类自身(static). 事件: 当我们在图形化界面上执行一个操作的时候，我们很显然的就会引发一个事件。绑定在这个事件上的方法称为事件驱动程序。 函数成员: 单独拿出函数成员在这里进行重点的剖析。</summary></entry><entry><title type="html">C# week1</title><link href="https://aaron19960821.github.io//blog/c-1/" rel="alternate" type="text/html" title="C# week1" /><published>2017-03-04T00:00:00+08:00</published><updated>2017-03-04T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/c#1</id><content type="html" xml:base="https://aaron19960821.github.io//blog/c-1/">&lt;p&gt;OOP
 面向过程编程及其先天的缺陷
 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。
 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。&lt;/p&gt;
@@ -633,7 +633,7 @@ class BirthsListTest
 
 &lt;h2 id=&quot;string类&quot;&gt;string类&lt;/h2&gt;
 &lt;h3 id=&quot;栈和堆的关系&quot;&gt;栈和堆的关系&lt;/h3&gt;
-&lt;p&gt;所有的引用空间所指向的对象都会被.NET框架所控制，在结束程序的时候，堆的空间会自动被回收，所以我们不需要考虑内存空间泄漏的问题。&lt;/p&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">OOP 面向过程编程及其先天的缺陷 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。</summary></entry><entry><title type="html">Polya Theory</title><link href="https://aaron19960821.github.io/blog/Polya/" rel="alternate" type="text/html" title="Polya Theory" /><published>2017-03-01T00:00:00+08:00</published><updated>2017-03-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Polya</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Polya/">&lt;h2 id=&quot;问题的给出&quot;&gt;问题的给出&lt;/h2&gt;
+&lt;p&gt;所有的引用空间所指向的对象都会被.NET框架所控制，在结束程序的时候，堆的空间会自动被回收，所以我们不需要考虑内存空间泄漏的问题。&lt;/p&gt;</content><author><name></name></author><category term=".NET" /><summary type="html">OOP 面向过程编程及其先天的缺陷 软件由若干个子过程组成，当数据准备完毕之后，软件代码的执行次序就会被确定。 但是这个方法在用于大的工程的时候，程序员在测试的时候就需要追踪大量的程序分支，造成调试的诸多不便。在程序员协同工作的时候，很容易出现十分混乱的情况。</summary></entry><entry><title type="html">Polya Theory</title><link href="https://aaron19960821.github.io//blog/Polya/" rel="alternate" type="text/html" title="Polya Theory" /><published>2017-03-01T00:00:00+08:00</published><updated>2017-03-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Polya</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Polya/">&lt;h2 id=&quot;问题的给出&quot;&gt;问题的给出&lt;/h2&gt;
 &lt;p&gt;先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢?
 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。
 但是，如果考虑同构又要怎么做呢？
@@ -665,7 +665,7 @@ Burnside定理: G是X的置换群，而且C是X中满足下面的一个着色集
 
 \[C(f)=\sum f(x)\]
 
-&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry><entry><title type="html">插头DP</title><link href="https://aaron19960821.github.io/blog/Chatou-dp/" rel="alternate" type="text/html" title="插头DP" /><published>2017-02-28T00:00:00+08:00</published><updated>2017-02-28T00:00:00+08:00</updated><id>https://aaron19960821.github.io/blog/Chatou-dp</id><content type="html" xml:base="https://aaron19960821.github.io/blog/Chatou-dp/">&lt;h2 id=&quot;问题的引入&quot;&gt;问题的引入&lt;/h2&gt;
+&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry><entry><title type="html">插头DP</title><link href="https://aaron19960821.github.io//blog/Chatou-dp/" rel="alternate" type="text/html" title="插头DP" /><published>2017-02-28T00:00:00+08:00</published><updated>2017-02-28T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Chatou-dp</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Chatou-dp/">&lt;h2 id=&quot;问题的引入&quot;&gt;问题的引入&lt;/h2&gt;
 &lt;p&gt;在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。
 我们先来看一个十分简单的问题：&lt;/p&gt;
 
