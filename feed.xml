@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io//" rel="alternate" type="text/html" /><updated>2020-12-30T21:06:24+08:00</updated><id>https://aaron19960821.github.io//feed.xml</id><entry><title type="html">Turing Machine</title><link href="https://aaron19960821.github.io//blog/turing_machine/" rel="alternate" type="text/html" title="Turing Machine" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/turing_machine</id><content type="html" xml:base="https://aaron19960821.github.io//blog/turing_machine/">&lt;h1 id=&quot;turing-machine--the-computation-model&quot;&gt;Turing Machine – The Computation Model&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://aaron19960821.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaron19960821.github.io//" rel="alternate" type="text/html" /><updated>2020-12-31T22:15:43+08:00</updated><id>https://aaron19960821.github.io//feed.xml</id><entry><title type="html">幸福是什么(2018-2020总结)</title><link href="https://aaron19960821.github.io//blog/Happiness/" rel="alternate" type="text/html" title="幸福是什么(2018-2020总结)" /><published>2020-12-31T00:00:00+08:00</published><updated>2020-12-31T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Happiness</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Happiness/">&lt;p&gt;又到了一年的年终。再过几个小时，新的十年就要开始了。我想，我应该来写一点什么来纪念这几年的日子。这两年，我经历了一段很难过的时光。但是，这些并没有让我变得消沉。他们像一束光，照亮了我前行的路。让我明白了什么是值得去做的。我想要去远方，看一看山那一边的景色。&lt;/p&gt;
+
+&lt;h2 id=&quot;黑暗时代&quot;&gt;黑暗时代&lt;/h2&gt;
+
+&lt;p&gt;2年前的今天，我刚刚摆脱了学校里的青涩。开始了职场的生活。看起来，一切都非常的美好。我在世界上最大的软件公司工作，身边有一群勤奋而富有经验的同事。我遇到了非常照顾我的老板。我的收入也很可观，足够让我温饱。一切看起来都非常好。我似乎只要跟随团队的步伐，升职加薪，或许在某个假日去某个很好的地方度假。就这样度过很多很多年。&lt;/p&gt;
+
+&lt;p&gt;但是同时，我又似乎一无所有。我的工作大多需要服务于团队。当然，这也是现代社会的缩影。很少有人能凌驾于团队之上。每个月，我都要处理大量的团队需要做的working item. 而这些事情占据了我大量的时间。我几乎没有时间去做我想做的事情。同时，我的人际关系处理的非常的糟糕。大部分时候，我是个非常直接的人。但同时，我又非常的内敛。看起来，这像是两种非常不同的性格。所以我很少说话，但是当我说话的时候，往往会是非常伤人的话。我可能会非常严厉的评价一件工作(包括我自己)。但在一些人眼中，这样的言论会让他们难受。这会让我看起来像个很可怕的野心家。这样的性格为我带来一些朋友，大概是因为他们觉得我说了他们不敢说的话吧。但也让很多人并不敢靠近我。于是，我有了一个交流圈，但这个交流圈很小。有的时候，我看到有一些人非常受欢迎，我的内心还是羡慕的。&lt;/p&gt;
+
+&lt;h2 id=&quot;一线天&quot;&gt;一线天&lt;/h2&gt;
+
+&lt;p&gt;事情的转变，开始于一个契机。那个时候，Edge Android想要和一家叫做Honey的公司谈合作。Edge想要提升移动端浏览器上的购物体验。(当然在我看来，这个想法实在是太疯狂了。)但是对方一开口就是，你们能在移动端上引入我们的Extension吗？那时，大部分人都觉得这件事情几乎不可能。但是，那时坐在我对面的Hao觉得可行。于是他进行了一些实验，取得了一些进展。不过，因为他的工作太多，几乎没有时间。于是组里就希望把工作转交给另外一个人。我想，那时候我觉得机会来了。我花了2个周末的时间打通了一部分逻辑，并且成功的在Edge Android上启动了一个Extension.这让我成功的抢到了这份工作。&lt;/p&gt;
+
+&lt;p&gt;但是，得到我想要的主题，只是一个开始而已。这份工作需要和第三方合作。这让我不得不和比我级别高很多的人开会。我不得不花很多时间做一些工作来让对方能够在Android上进行Extension的调试。同时，我的工作量也异常的惊人, 因为在Android Environment下每一个关于Extension的动作都是个多级别的异步操作。更不用说我需要修复很多在桌面版本下的Extension API没法兼容移动平台的问题，同时，我不能让APK SIZE太大。就这样，经过了几个月，我的工作Check-in了，让人很神奇的是，几乎没有遇到很大面积的Crash。这让我一直觉得很惊奇。&lt;/p&gt;
+
+&lt;p&gt;在2019年的暑假，我面试到了一个面试者，他是第一个没有大学学历的面试人。我和他聊的非常愉快，他是个Android专家。我想他大概是精通Android所有的方面吧。在面试的最后，我问他，他离拿到学位还有多远？他坦然的说到，只是几门课而已。但他觉得学校里的知识没有办法让他感兴趣，于是就退学了。这对我的内心产生了极大的震撼。我还记得那个下午，我用了很大的热情，给他写了一封很夸张的推荐信。我想要让这样对工程充满热心的人成功。同时，他也让我意识到，我要去追随我想要做的事情。&lt;/p&gt;
+
+&lt;h2 id=&quot;让改变持续发生&quot;&gt;让改变持续发生&lt;/h2&gt;
+
+&lt;p&gt;于是，我离开了那家很大很大的软件公司。来到台湾开始了我的研究生活。也开始重新的架构我对不同的事情的看法。在人际关系上，我变得更加开放，我希望对方在和我交流的时候，能够自由的表达自己的观点和感受。同时，我也希望自己的观点能够得到有效的传达。在研究上，我尽力让我的思想从一个工程师转变成一个研究员。这件事情也需要感谢我的Advisor Yung-Yu.我经常观察他如何评价一个研究，如何组织自己的观点。这让我获益很多。我开始学会有组织的向别人介绍我的工作，而不是在做工程师时比较随性的Code Review. 同时，我也学会了尽量去做自己能做的事情。在疫情期间，我依然持续进行我的研究，一直没有停下。我想，我在慢慢走上了研究的这条路。&lt;/p&gt;
+
+&lt;p&gt;10年之后，我会在哪里，或是，我会离开这个世界，去那无忧无虑的地方呢？我从来都不知道。和这个世界比起来，我是如此的渺小啊。我只能一步一步的，翻过一座一座的高山，追随自己的远方。&lt;/p&gt;</content><author><name></name></author><category term="Diary" /><summary type="html">又到了一年的年终。再过几个小时，新的十年就要开始了。我想，我应该来写一点什么来纪念这几年的日子。这两年，我经历了一段很难过的时光。但是，这些并没有让我变得消沉。他们像一束光，照亮了我前行的路。让我明白了什么是值得去做的。我想要去远方，看一看山那一边的景色。</summary></entry><entry><title type="html">Turing Machine</title><link href="https://aaron19960821.github.io//blog/turing_machine/" rel="alternate" type="text/html" title="Turing Machine" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/turing_machine</id><content type="html" xml:base="https://aaron19960821.github.io//blog/turing_machine/">&lt;h1 id=&quot;turing-machine--the-computation-model&quot;&gt;Turing Machine – The Computation Model&lt;/h1&gt;
 
 &lt;h2 id=&quot;turing-machine&quot;&gt;Turing Machine&lt;/h2&gt;
 
@@ -665,26 +685,4 @@ Burnside定理: G是X的置换群，而且C是X中满足下面的一个着色集
 
 \[C(f)=\sum f(x)\]
 
-&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry><entry><title type="html">插头DP</title><link href="https://aaron19960821.github.io//blog/Chatou-dp/" rel="alternate" type="text/html" title="插头DP" /><published>2017-02-28T00:00:00+08:00</published><updated>2017-02-28T00:00:00+08:00</updated><id>https://aaron19960821.github.io//blog/Chatou-dp</id><content type="html" xml:base="https://aaron19960821.github.io//blog/Chatou-dp/">&lt;h2 id=&quot;问题的引入&quot;&gt;问题的引入&lt;/h2&gt;
-&lt;p&gt;在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。
-我们先来看一个十分简单的问题：&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;给定一个n*m的方格块，有一些是不可通过的障碍方格，我们要求其中的哈密顿回路的个数。&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;分析&quot;&gt;分析&lt;/h2&gt;
-&lt;p&gt;首先我们发现，对于每一个格子而言，在一条哈密顿回路当中，回路都是从一个方向进入，从一个方向出去的。(度数一定为2), 所以我们就引入了&lt;code class=&quot;highlighter-rouge&quot;&gt;插头&lt;/code&gt;的概念。&lt;/p&gt;
-
-&lt;p&gt;对于一个四联通的图来说，每个格子存在4个插头，一共会有两个有效，所以一共就会存在6种情况。我们可以依据这些来进行求解。&lt;/p&gt;
-
-&lt;p&gt;而后，对于每个插头，我们需要记录其连通性，因为是一条哈密顿回路，所以最后所有的插头都必须是联通的。我们来看看下面的几种情况:&lt;/p&gt;
-
-&lt;p&gt;如果没有上插头和左插头，那么说明存在右插头和下插头，就是要加入新的联通分量。
-如果上插头和左插头两个存在其中一个，那么我们可以显而易见的得到就是它们会转化成右插头或者下插头中的一个，不会产生新的联通分量。
-如果均存在的话，即合并联通分量。&lt;/p&gt;
-
-&lt;h2 id=&quot;实现&quot;&gt;实现&lt;/h2&gt;
-&lt;p&gt;我们使用二进制位，最小表示法来存储格子联通的情况。
-为了防止不必要的状态的出现，我们可以使用BFS扩展的方式来进行迭代，得到结果。
-几个题目：
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/ural1519.cpp&quot;&gt;ural1519&lt;/a&gt;
-&lt;a href=&quot;https://github.com/Aaron19960821/icpcarchive/blob/master/dp/hdu1964.cpp&quot;&gt;hdu1964&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="ACM/ICPC" /><summary type="html">问题的引入 在文章的开头，首先膜拜CDQ女神，写的实在是太棒了。 我们先来看一个十分简单的问题：</summary></entry></feed>
+&lt;p&gt;我们就可以简化上面的定理，来减小算法的复杂度了。&lt;/p&gt;</content><author><name></name></author><category term="Algorithm" /><category term="math" /><summary type="html">问题的给出 先看一个十分简单的问题，如果使用2种颜色给一个正方形染色，那么一共会存在多少种情况呢? 如果承认顶点是两两不同的，我们就可以看到一共存在24=16种方法。 但是，如果考虑同构又要怎么做呢？ 我们可以发现，全染成一种颜色，一共2种方法，2,2分，2种方法，1,3分2种方法，所以存在着6种不同的方法。</summary></entry></feed>

@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "幸福是什么(2018-2020总结)",
+      "tags"     : "Diary",
+      "url"     : "/blog/Happiness/",
+      "date"     : "31/12/2020"
+    } ,
+  
+    {
       "title"    : "Turing Machine",
       "tags"     : "complexity",
       "url"     : "/blog/turing_machine/",
